@@ -1,0 +1,232 @@
+
+{  "data":
+ [
+   {
+    "title": "Expr_Assign",
+    "value": {
+    
+   "var": 
+      {
+       "title": "Expr_Variable",
+       "value": {
+          "name":"x"
+        }
+      }
+      , 
+   "expr": 
+      {
+       "title": "Expr_ArrayDimFetch",
+       "value": {
+       
+      "var": 
+         {
+          "title": "Expr_Variable",
+          "value": {
+             "name":"_GET"
+           }
+         }
+         , 
+      "dim": 
+         {
+          "title": "Scalar_String",
+          "value": {
+             "value":"username"
+           }
+         }
+         
+        }
+      }
+      
+     }
+   }
+   ,
+   {
+    "title": "Expr_Assign",
+    "value": {
+    
+   "var": 
+      {
+       "title": "Expr_Variable",
+       "value": {
+          "name":"y"
+        }
+      }
+      , 
+   "expr": 
+      {
+       "title": "Scalar_DNumber",
+       "value": {
+          "value":"1"
+        }
+      }
+      
+     }
+   }
+   ,
+   {
+    "title": "Expr_Assign",
+    "value": {
+    
+   "var": 
+      {
+       "title": "Expr_Variable",
+       "value": {
+          "name":"z"
+        }
+      }
+      , 
+   "expr": 
+      {
+       "title": "Expr_ArrayDimFetch",
+       "value": {
+       
+      "var": 
+         {
+          "title": "Expr_Variable",
+          "value": {
+             "name":"_GET"
+           }
+         }
+         , 
+      "dim": 
+         {
+          "title": "Scalar_String",
+          "value": {
+             "value":"username"
+           }
+         }
+         
+        }
+      }
+      
+     }
+   }
+   ,
+   {
+    "title": "Expr_Assign",
+    "value": {
+    
+   "var": 
+      {
+       "title": "Expr_Variable",
+       "value": {
+          "name":"c"
+        }
+      }
+      , 
+   "expr": 
+      {
+       "title": "Expr_FuncCall",
+       "value": {
+       
+      "name": 
+         {
+          "title": "Name",
+          "value": {
+          
+         "parts":  [
+            "fun1"
+            
+             ]
+            
+           }
+         }
+         , 
+      "args":  [
+          ]
+         
+        }
+      }
+      
+     }
+   }
+   ,
+   {
+    "title": "Stmt_Function",
+    "value": {
+       "byRef":false,    "name":"fun1", 
+   "params":  [
+       ]
+      ,    "returnType":null, 
+   "stmts":  [
+         {
+          "title": "Expr_Assign",
+          "value": {
+          
+         "var": 
+            {
+             "title": "Expr_Variable",
+             "value": {
+                "name":"x"
+              }
+            }
+            , 
+         "expr": 
+            {
+             "title": "Scalar_String",
+             "value": {
+                "value":"hello"
+              }
+            }
+            
+           }
+         }
+         ,
+         {
+          "title": "Stmt_Echo",
+          "value": {
+          
+         "exprs":  [
+               {
+                "title": "Expr_Variable",
+                "value": {
+                   "name":"x"
+                 }
+               }
+               
+             ]
+            
+           }
+         }
+         
+       ]
+      
+     }
+   }
+   ,
+   {
+    "title": "Stmt_Echo",
+    "value": {
+    
+   "exprs":  [
+         {
+          "title": "Expr_Variable",
+          "value": {
+             "name":"x"
+           }
+         }
+         
+       ]
+      
+     }
+   }
+   ,
+   {
+    "title": "Stmt_Echo",
+    "value": {
+    
+   "exprs":  [
+         {
+          "title": "Expr_Variable",
+          "value": {
+             "name":"z"
+           }
+         }
+         
+       ]
+      
+     }
+   }
+   
+ ]
+}
